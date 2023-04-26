@@ -280,3 +280,11 @@
 2023-04-26 15:58:36,857 INFO com.employee.controller.EmployeeController [https-jsse-nio-8787-exec-6] Record of EmployeeID(111)is called
 2023-04-26 16:01:54,385 INFO com.employee.controller.EmployeeController [https-jsse-nio-8787-exec-4] Record of EmployeeID(115)is called
 2023-04-26 16:02:30,275 INFO com.employee.controller.EmployeeController [https-jsse-nio-8787-exec-8] Record of EmployeeID(115)is called
+2023-04-26 19:01:52,052 WARN com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=30m12s683ms539µs900ns).
+2023-04-26 19:49:57,291 WARN com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=38m34s938ms394µs).
+2023-04-26 19:58:37,410 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(456)-127.0.0.1] Application shutdown requested.
+2023-04-26 19:58:38,596 INFO org.apache.catalina.core.StandardService [RMI TCP Connection(456)-127.0.0.1] Stopping service [Tomcat]
+2023-04-26 19:58:38,701 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [RMI TCP Connection(456)-127.0.0.1] Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-04-26 19:58:40,561 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [RMI TCP Connection(456)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-26 19:58:40,722 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(456)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2023-04-26 19:58:40,938 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(456)-127.0.0.1] HikariPool-1 - Shutdown completed.
