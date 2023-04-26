@@ -1,0 +1,65 @@
+plugins {
+	id 'java'
+	id 'org.springframework.boot' version '2.7.11'
+	id 'io.spring.dependency-management' version '1.0.15.RELEASE'
+}
+
+group = 'com.employee'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '17'
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+/*
+	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+	implementation 'org.springframework.boot:spring-boot-starter-validation'
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+	implementation 'org.springframework.boot:spring-boot-starter-webflux'
+	developmentOnly 'org.springframework.boot:spring-boot-devtools'
+	runtimeOnly 'com.mysql:mysql-connector-j'
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	testImplementation 'io.projectreactor:reactor-test'
+	compileOnly 'org.projectlombok:lombok'
+	annotationProcessor 'org.projectlombok:lombok'
+	
+	*/
+	
+	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+	
+	implementation 'org.springframework.boot:spring-boot-starter-validation'
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+	implementation 'org.springframework.boot:spring-boot-starter-webflux'
+	compileOnly 'org.projectlombok:lombok'
+	developmentOnly 'org.springframework.boot:spring-boot-devtools'
+	runtimeOnly 'com.mysql:mysql-connector-j'
+	annotationProcessor 'org.projectlombok:lombok'
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	testImplementation 'io.projectreactor:reactor-test'
+	implementation group: 'org.springdoc', name: 'springdoc-openapi-ui', version: '1.5.8'
+
+	implementation group: 'io.github.classgraph', name: 'classgraph', version: '4.8.157'
+
+	implementation group: 'org.webjars', name: 'webjars-locator', version: '0.46'
+	implementation 'org.slf4j:slf4j-api:1.7.30'
+    implementation 'ch.qos.logback:logback-classic:1.2.3'
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.12.4'
+    implementation 'org.springframework.security:spring-security-crypto:5.6.1'
+	
+implementation group: 'org.springdoc', name: 'springdoc-openapi-ui', version: '1.5.8'
+
+// https://mvnrepository.com/artifact/io.github.classgraph/classgraph
+implementation group: 'io.github.classgraph', name: 'classgraph', version: '4.8.157'
+// https://mvnrepository.com/artifact/org.webjars/webjars-locator
+implementation group: 'org.webjars', name: 'webjars-locator', version: '0.46'
+
+// https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-devtools
+
+ implementation 'ch.qos.logback:logback-classic'
+}
+
+tasks.named('test') {
+	useJUnitPlatform()
+}
