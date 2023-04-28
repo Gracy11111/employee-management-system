@@ -369,3 +369,5 @@ java.lang.Exception: Invalid EmployeeID
 2023-04-28 09:10:01,027 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
 2023-04-28 09:10:04,189 INFO org.apache.tomcat.util.net.NioEndpoint.certificate [restartedMain] Connector [https-jsse-nio-8787], TLS virtual host [_default_], certificate type [UNDEFINED] configured from [file:/C:/Users/Adminstrator/Desktop/Capstone_Project/EmployeeManagementSystem/keystore.p12] using alias [spring-https] and with trust store [null]
 2023-04-28 09:10:04,209 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8787 (https) with context path ''
+2023-04-28 09:10:04,249 INFO com.employee.EmployeeManagementSystemApplication [restartedMain] Started EmployeeManagementSystemApplication in 16.493 seconds (JVM running for 217.553)
+2023-04-28 09:10:04,265 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
