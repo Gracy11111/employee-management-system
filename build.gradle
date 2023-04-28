@@ -13,19 +13,6 @@ repositories {
 }
 
 dependencies {
-/*
-	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
-	implementation 'org.springframework.boot:spring-boot-starter-validation'
-	implementation 'org.springframework.boot:spring-boot-starter-web'
-	implementation 'org.springframework.boot:spring-boot-starter-webflux'
-	developmentOnly 'org.springframework.boot:spring-boot-devtools'
-	runtimeOnly 'com.mysql:mysql-connector-j'
-	testImplementation 'org.springframework.boot:spring-boot-starter-test'
-	testImplementation 'io.projectreactor:reactor-test'
-	compileOnly 'org.projectlombok:lombok'
-	annotationProcessor 'org.projectlombok:lombok'
-	
-	*/
 	
 	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
 	
@@ -48,16 +35,10 @@ dependencies {
     implementation 'com.fasterxml.jackson.core:jackson-databind:2.12.4'
     implementation 'org.springframework.security:spring-security-crypto:5.6.1'
 	
-implementation group: 'org.springdoc', name: 'springdoc-openapi-ui', version: '1.5.8'
-
-// https://mvnrepository.com/artifact/io.github.classgraph/classgraph
-implementation group: 'io.github.classgraph', name: 'classgraph', version: '4.8.157'
-// https://mvnrepository.com/artifact/org.webjars/webjars-locator
-implementation group: 'org.webjars', name: 'webjars-locator', version: '0.46'
-
-// https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-devtools
-
- implementation 'ch.qos.logback:logback-classic'
+	implementation group: 'org.springdoc', name: 'springdoc-openapi-ui', version: '1.5.8'
+	implementation group: 'io.github.classgraph', name: 'classgraph', version: '4.8.157'
+	implementation group: 'org.webjars', name: 'webjars-locator', version: '0.46'
+ 	implementation 'ch.qos.logback:logback-classic'
 }
 
 tasks.named('test') {
